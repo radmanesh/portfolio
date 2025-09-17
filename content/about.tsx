@@ -18,27 +18,27 @@ const ABOUT = {
   experience: [
     {
       id: "1",
-      period: { to: "present", from: "2022" },
+      period: { to: "Feb 2025", from: "Aug 2022" },
       company: { name: "New School for Social Research", url: "https://cut.social" },
       role: {
-        title: "Developer/Researcher",
+        title: "Volunteer Developer/Researcher",
         description:
           "Building two research platforms: Cut (Lens) for psychological and behavioral studies, and Jamasp for wearables data collection to analysis.",
       },
     },
     {
       id: "2",
-      period: { to: "present", from: "2006" },
+      period: { to: "2024", from: "2018" },
       company: { name: "Freelance", url: "" },
       role: {
-        title: "Freelance Software and Web Developer",
+        title: "Software and Web Developer",
         description:
           "Delivered a wide range of web apps using Java, React, PHP, static sites, and GCP—across greenfield builds and modernizations.",
       },
     },
     {
       id: "3",
-      period: { to: "2018", from: "2015" },
+      period: { to: "2018", from: "2016" },
       company: {
         name: "BongaMonga®",
         url: "https://bongamonga.ir",
@@ -51,10 +51,20 @@ const ABOUT = {
     },
     {
       id: "4",
+      period: { to: "2016", from: "2015" },
+      company: { name: "WhiteOx", url: "" },
+      role: {
+        title: "Software Engineer",
+        description:
+          "Worked on building a platform for online multi-player card games.",
+      },
+    },
+    {
+      id: "4",
       company: { name: "Ratnic", url: "https://ratnic.se/" },
       period: { to: "2015", from: "2014" },
       role: {
-        title: "Research Engineer/Developer",
+        title: "Software Engineer/Co-Founder",
         description:
           "Developed a social platform with quiz‑driven engagement and rewards.",
       },
