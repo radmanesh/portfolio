@@ -5,7 +5,7 @@ const ABOUT = {
     {
       id: "1",
       institute: "The University of Oklahoma",
-      period: { from: "Jan, 2024", to: "Dec, 2026" },
+      period: { from: "Dec, 2024", to: "Dec, 2026" },
       degree: "Masters of Science in Data Science and Analytics",
     },
     {
@@ -28,7 +28,7 @@ const ABOUT = {
     },
     {
       id: "2",
-      period: { to: "present", from: "2006" },
+      period: { to: "2024", from: "2018" },
       company: { name: "Freelance", url: "" },
       role: {
         title: "Freelance Software and Web Developer",
@@ -38,7 +38,7 @@ const ABOUT = {
     },
     {
       id: "3",
-      period: { to: "2018", from: "2015" },
+      period: { to: "2018", from: "2016" },
       company: {
         name: "BongaMonga®",
         url: "https://bongamonga.ir",
@@ -47,6 +47,16 @@ const ABOUT = {
         title: "Software Engineer",
         description:
           "Worked on building web/mobile realstate online selling and renting platform",
+      },
+    },
+    {
+      id: "4",
+      period: { to: "2016", from: "2015" },
+      company: { name: "WhiteOx", url: "" },
+      role: {
+        title: "Software Engineer",
+        description:
+          "Worked on building a platform for online multi-player card games.",
       },
     },
     {
