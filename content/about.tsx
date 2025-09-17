@@ -18,10 +18,10 @@ const ABOUT = {
   experience: [
     {
       id: "1",
-      period: { to: "present", from: "2022" },
+      period: { to: "Feb 2025", from: "Aug 2022" },
       company: { name: "New School for Social Research", url: "https://cut.social" },
       role: {
-        title: "Developer/Researcher",
+        title: "Volunteer Developer/Researcher",
         description:
           "Working on two projects: Cut (Lens), a psychological and behavioral research platform, and Jamasp, a platform to collect wearable devices data.",
       },
@@ -31,7 +31,7 @@ const ABOUT = {
       period: { to: "2024", from: "2018" },
       company: { name: "Freelance", url: "" },
       role: {
-        title: "Freelance Software and Web Developer",
+        title: "Software and Web Developer",
         description:
           "Developed developed a wide range of web applications using Java, ReactJS, PHP, Static Websites, Google Cloud Platform, and much more.",
       },
@@ -64,7 +64,7 @@ const ABOUT = {
       company: { name: "Ratnic", url: "https://ratnic.se/" },
       period: { to: "2015", from: "2014" },
       role: {
-        title: "Research Engineer/Developer",
+        title: "Software Engineer/Co-Founder",
         description:
           "Developed a social platform where users could win by completing quizzes.",
       },
