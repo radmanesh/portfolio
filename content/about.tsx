@@ -86,7 +86,7 @@ const ABOUT = {
       role: {
         title: "Research Engineer/Developer",
         description:
-          "Explored knowledge engineering and semantic methods with a focus on ontology and logic.",
+          "Developed a knowledge management platform for automated network attack reporting using OWL ontologies and logic reasoning.",
       },
     },
   ],
