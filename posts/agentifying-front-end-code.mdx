@@ -1,0 +1,50 @@
+---
+title: Agentifying Design2Code with AgentBeats
+publishedAt: 2025-11-12
+summary: A two-month update on my AgentX project for the Berkeley Agentic AI MOOC, building an agentic test harness around the Design2Code visual-to-code pipeline.
+cover: /posts/agentx-agentbeats-banner.jpeg
+tag: agentic-ai llm frontend agentbeats
+---
+
+📆 Two months into the **Berkeley MOOC on Agentic AI** — still going strong!
+
+🔗 [Join the MOOC](https://agenticai-learning.org/f25)
+
+For the past two months, I’ve been immersed in the **Agentic AI MOOC**, learning from leaders at OpenAI, DeepMind, Microsoft, and startups like Sierra. The course is ongoing, and it’s been incredible to explore how large language models evolve into multi-agent systems with real-world utility.
+
+As part of the AgentX-AgentBeats track, I am designing a green-agent-powered evaluation system to test the agentification of the **Design2Code** framework, a visual-to-code pipeline that translates design images into responsive HTML/CSS and JavaScript.
+
+## 🧠 Agent Architecture: Green & White
+
+In AgentBeats, task evaluation is split between two agent roles:
+
+- 🟢 The **green agent** acts as the host and evaluator. It loads tasks (e.g., screenshot-to-code examples from Design2Code), prepares the environment, assigns each task to a participant, and then validates the output.
+- ⚪ The **white agent** is the participant. It receives the task and performs the required operation; in this case, generating HTML/CSS code based on the input screenshot.
+- 📊 After execution, the green agent scores the output using predefined evaluation logic (e.g., checking visual fidelity or code structure) and reports results to the platform.
+
+This structure not only modularizes task execution and verification, but also makes it easier to simulate noisy conditions, benchmark against new datasets, or swap out white agent strategies.
+
+## 💡 Lessons from the Real World
+
+The MOOC lectures offered practical insights into building and evaluating reliable agentic systems:
+
+- **τ2-Bench** (Sierra) emphasized the need for dual-control testing setups, reproducible tasks, and robust metrics like `pass@k` for real-world reliability.
+- From **SWE-bench Verified**, I learned that curating and verifying datasets (even if it reduces their size) can dramatically improve their benchmarking value. They removed about a third of the original examples to create a more reliable and verifiable testbed.
+- **Verifiable agents** (NVIDIA) are aligned not just with user intent but with *environment-grounded correctness* — scored by unit tests or DOM state comparisons, not human judgment.
+- Good evaluations require not just coverage, but verifier quality, task separability, and diversity to truly measure intelligence.
+
+## 🔭 Next Steps
+
+As the MOOC continues, I plan to:
+
+- ✅ Complete my green agent, with robust task orchestration, metric evaluation, and environment management.
+- 🧠 Implement multi-turn dialogue capabilities in my white agent, allowing it to ask clarifying questions, just like a collaborative frontend developer.
+- 🟣 I’m also excited to see **what kind of purple agent** we’ll be implementing. Its role hasn’t been fully defined yet, but early discussions suggest it may introduce new coordination or creative capabilities across agents.
+
+---
+
+Agentic AI is evolving from “prompt-and-pray” to full-stack, multi-agent systems with reflexivity and autonomy. Building a test harness like this showed me what’s required to go from demos to dependable AI systems.
+
+🔗 [AgentBeats Track](https://rdi.berkeley.edu/agentx-agentbeats)
+
+#AgenticAI #LLMAgents #AgentBeats #Design2Code #FrontendEngineering #WebAutomation #GreenAgent #WhiteAgent #TauBench #SierraAI #MOOC

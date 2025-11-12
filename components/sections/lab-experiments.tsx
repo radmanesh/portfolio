@@ -5,16 +5,18 @@ import { Section, SectionTitle } from "@/components/shared/section";
 
 // --------- COMPONENT ---------
 export function LabExperiments() {
-  // Show the last available experiment
-  const featuredExperiment = LABS[LABS.length - 1];
+  // Show the last three available experiments
+  const featuredExperiments = LABS.slice(-3).reverse();
 
-  if (!featuredExperiment) return null;
+  if (featuredExperiments.length === 0) return null;
 
   return (
     <Section>
       <SectionTitle text="Lab experiments" />
       <div className="grid grid-cols-1 gap-4">
-        <ExperimentCard experiment={featuredExperiment} />
+        {featuredExperiments.map((experiment) => (
+          <ExperimentCard key={experiment.slug} experiment={experiment} />
+        ))}
       </div>
       <div className="flex justify-end">
         <AnimatedLink href="/lab">View all experiments</AnimatedLink>
