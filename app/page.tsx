@@ -4,6 +4,7 @@ import { Headline } from "@/components/sections/headline";
 import { BlogPosts } from "@/components/sections/blog-posts";
 import { FeaturedProjects } from "@/components/sections/featured-projects";
 import { LabExperiments } from "@/components/sections/lab-experiments";
+import { TechStack } from "@/components/sections/tech-stack";
 
 // --------- PAGE ---------
 export default function HomePage() {
@@ -12,6 +13,7 @@ export default function HomePage() {
       <Headline />
       <About />
       <FeaturedProjects />
+      <TechStack />
       <BlogPosts />
       <LabExperiments />
       <Socials />

@@ -18,6 +18,16 @@ const ABOUT = {
   experience: [
     {
       id: "1",
+      period: { from: "2024", to: "Present" },
+      company: { name: "University of Oklahoma", url: "https://www.ou.edu" },
+      role: {
+        title: "Graduate Research Assistant",
+        description:
+          "Develop multi-agent LLM systems, RL-based post-training loops, and multimodal evaluation frameworks. Focus on Agent-to-Agent (A2A) orchestration for code generation and critique, vision-language pipelines for layout extraction and sketch-to-code systems, semantic retrieval systems using LlamaIndex, LangChain, LangGraph, and Qwen, and automated benchmarking and evaluation frameworks.",
+      },
+    },
+    {
+      id: "2",
       period: { to: "Feb 2025", from: "Aug 2022" },
       company: { name: "New School for Social Research", url: "https://cut.social" },
       role: {
@@ -27,7 +37,7 @@ const ABOUT = {
       },
     },
     {
-      id: "2",
+      id: "3",
       period: { to: "2024", from: "2018" },
       company: { name: "Freelance", url: "" },
       role: {
@@ -37,7 +47,7 @@ const ABOUT = {
       },
     },
     {
-      id: "3",
+      id: "4",
       period: { to: "2018", from: "2016" },
       company: {
         name: "BongaMonga®",
@@ -50,7 +60,7 @@ const ABOUT = {
       },
     },
     {
-      id: "4",
+      id: "5",
       period: { to: "2016", from: "2015" },
       company: { name: "WhiteOx", url: "" },
       role: {
@@ -60,7 +70,7 @@ const ABOUT = {
       },
     },
     {
-      id: "4",
+      id: "6",
       company: { name: "Ratnic", url: "https://ratnic.se/" },
       period: { to: "2015", from: "2014" },
       role: {
@@ -70,7 +80,7 @@ const ABOUT = {
       },
     },
     {
-      id: "5",
+      id: "7",
       company: { name: "IRS", url: "" },
       period: { to: "2014", from: "2013" },
       role: {
@@ -80,7 +90,7 @@ const ABOUT = {
       },
     },
     {
-      id: "6",
+      id: "8",
       company: { name: "ICT Research institute", url: "https://en.itrc.ac.ir/" },
       period: { to: "2013", from: "2012" },
       role: {

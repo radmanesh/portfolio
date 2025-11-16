@@ -6,6 +6,8 @@ declare module "portfolioManager" {
     logo: LucideIcon;
     featured: boolean;
     description: string;
+    tags?: string[];
+    githubUrl?: string;
   };
 
   export type NavigationItem = { name: string; href: string };

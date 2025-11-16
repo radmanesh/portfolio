@@ -29,37 +29,19 @@ export default function AboutPage() {
       <SectionTitle text="About me" />
       <div className="grid grid-cols-1 gap-4">
         <p className="text-base text-justify text-muted-foreground tracking-tight font-normal">
-          I’m Arman Radmanesh — a full‑stack software engineer and data analyst, currently pursuing
-          an M.S. in Data Science and Analytics at the University of Oklahoma. I split my time between
-          research and product, focusing on tools that make data collection, analysis, and insight generation
-          simpler and more trustworthy.
+          I'm Arman Radmanesh — a Graduate Research Assistant and MS Data Science & Analytics student at the University of Oklahoma.
+          I build agentic AI systems, multimodal LLM pipelines, and production-grade research tools that solve complex, real-world problems.
         </p>
         <p className="text-base text-justify text-muted-foreground tracking-tight font-normal">
-          I build dependable web apps end‑to‑end—fast, accessible, and maintainable. Day‑to‑day I work with
-          <ReactBadge />, <NextBadge />, <TypeScriptBadge />, and <TailwindCssBadge /> to deliver responsive,
-          scalable interfaces backed by clean APIs and data workflows.
+          My work blends deep learning, computer vision, semantic retrieval, evaluation science, and full-stack engineering.
+          I develop multi-agent LLM systems, RL-based post-training loops, and multimodal evaluation frameworks. My research focuses on
+          Agent-to-Agent (A2A) orchestration for code generation and critique, vision-language pipelines for layout extraction and sketch-to-code systems,
+          semantic retrieval systems using LlamaIndex, LangChain, LangGraph, and Qwen, and automated benchmarking and evaluation frameworks.
         </p>
         <p className="text-base text-justify text-muted-foreground tracking-tight font-normal">
-          Recently, I’ve been developing two research platforms:
-          {" "}
-          <Link
-            href="https://jamasp.app"
-            className="underline decoration-dotted decoration-1 underline-offset-4 text-muted-foreground/90"
-          >
-            Jamasp
-          </Link>
-          {" "}
-          (wearables data to analysis) and
-          {" "}
-          <Link
-            href="https://cut.social"
-            className="underline decoration-dotted decoration-1 underline-offset-4 text-muted-foreground/90"
-          >
-            Cut (Lens)
-          </Link>
-          {" "}
-          (build and run behavioral studies). Beyond code, I enjoy sci‑fi and fantasy, and I recharge
-          outdoors—camping and chasing big skies. Always open to interesting collaborations.
+          I work with <ReactBadge />, <NextBadge />, <TypeScriptBadge />, and <TailwindCssBadge /> for frontend development,
+          alongside PyTorch, TensorFlow, LangChain, and various LLM frameworks for AI/ML work. Beyond code, I enjoy exploring
+          agentic system design, multimodal reasoning, distributed ML pipelines, and building research tools that turn messy datasets into clean insights.
         </p>
       </div>
       <SectionSubtitle text="Education" />
