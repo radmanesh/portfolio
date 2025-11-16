@@ -2,7 +2,7 @@
 
 import { Project } from "portfolioManager";
 import { ComponentProps } from "react";
-import { Github } from "lucide-react";
+import { SiGithub } from "react-icons/si";
 import { Badge } from "@/components/ui/badge";
 
 // --------- COMPONENT PROPS ---------
@@ -32,7 +32,7 @@ export function ProjectCard({ project, ...props }: Readonly<ProjectCardProps>) {
                     className="shrink-0 text-muted-foreground hover:text-foreground transition-colors"
                     aria-label="View on GitHub"
                   >
-                    <Github className="h-4 w-4" />
+                    <SiGithub className="h-4 w-4" />
                   </button>
                 )}
               </div>
