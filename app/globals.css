@@ -150,7 +150,7 @@
   }
 
   .shiki code {
-    @apply whitespace-pre-wrap break-words w-full;
+    @apply whitespace-pre-wrap break-words w-full font-mono;
   }
 
   /* Ensure pre elements inside shiki are properly contained */
@@ -159,7 +159,7 @@
   }
 
   p code {
-    @apply text-xs border border-border bg-muted/80 rounded-md p-1;
+    @apply text-xs border border-border bg-muted/80 rounded-md p-1 font-mono;
   }
 
   .project-logo {

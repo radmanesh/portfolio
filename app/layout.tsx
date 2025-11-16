@@ -1,6 +1,5 @@
 import type { Metadata } from "next";
-import localFont from "next/font/local";
-import { Figtree, Karla } from "next/font/google";
+import { Figtree, Karla, DM_Mono } from "next/font/google";
 
 import "./globals.css";
 import { Header } from "@/components/layout/header";
@@ -10,17 +9,14 @@ import { MaxWidthWrapper } from "@/components/layout/max-width-wrapper";
 import { HeyAllBanner } from "@/components/banners/hey-banner";
 
 // --------- FONTS ---------
-const fontLogo = localFont({
-  src: "./fonts/GeistMonoVF.woff",
+const dmMono = DM_Mono({
+  subsets: ["latin"],
+  weight: ["300", "400", "500"],
   variable: "--font-logo",
-  weight: "100 900",
 });
 
-const fontMono = localFont({
-  src: "./fonts/GeistMonoVF.woff",
-  variable: "--font-mono",
-  weight: "100 900",
-});
+const fontLogo = dmMono;
+const fontMono = dmMono;
 
 const fontDisplay = Figtree({
   subsets: ["latin"],
@@ -56,10 +52,9 @@ export const metadata: Metadata = {
   ],
   openGraph: {
     title: "Radmanesh",
-    description:
-      "Personal homepage of Arman Radmanesh ✨",
+    description: "Personal homepage of Arman Radmanesh ✨",
     url: "https://radmanesh.vercel.app/",
-    siteName: "Radmaanesh",
+    siteName: "Radmanesh",
     locale: "en_US",
     type: "website",
   },
