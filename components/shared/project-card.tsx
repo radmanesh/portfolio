@@ -45,7 +45,7 @@ export function ProjectCard({ project, ...props }: Readonly<ProjectCardProps>) {
                     <Badge
                       key={index}
                       variant="outline"
-                      className="text-xs"
+                      className="rounded-full text-xs"
                     >
                       {tag}
                     </Badge>

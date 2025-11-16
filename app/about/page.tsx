@@ -17,10 +17,7 @@ import {
 } from "@/components/shared/section";
 
 import ABOUT from "@/content/about";
-import { NextBadge } from "@/components/badges/next";
-import { ReactBadge } from "@/components/badges/react";
-import { TypeScriptBadge } from "@/components/badges/typescript";
-import { TailwindCssBadge } from "@/components/badges/tailwindcss";
+import { TechBadge } from "@/components/badges/tech-badge";
 
 // --------- PAGE LAYOUT ---------
 export default function AboutPage() {
@@ -39,8 +36,8 @@ export default function AboutPage() {
           semantic retrieval systems using LlamaIndex, LangChain, LangGraph, and Qwen, and automated benchmarking and evaluation frameworks.
         </p>
         <p className="text-base text-justify text-muted-foreground tracking-tight font-normal">
-          I work with <ReactBadge />, <NextBadge />, <TypeScriptBadge />, and <TailwindCssBadge /> for frontend development,
-          alongside PyTorch, TensorFlow, LangChain, and various LLM frameworks for AI/ML work. Beyond code, I enjoy exploring
+          I work with <TechBadge tech="React" />, <TechBadge tech="Next.js" />, <TechBadge tech="TypeScript" />, and <TechBadge tech="Tailwind" /> for frontend development,
+          alongside <TechBadge tech="PyTorch" />, <TechBadge tech="TensorFlow" />, <TechBadge tech="LangChain" />, and various LLM frameworks for AI/ML work. Beyond code, I enjoy exploring
           agentic system design, multimodal reasoning, distributed ML pipelines, and building research tools that turn messy datasets into clean insights.
         </p>
       </div>

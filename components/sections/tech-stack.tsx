@@ -1,5 +1,5 @@
 import { Section, SectionTitle, SectionSubtitle } from "@/components/shared/section";
-import { Badge } from "@/components/ui/badge";
+import { TechBadge } from "@/components/badges/tech-badge";
 
 // --------- COMPONENT ---------
 export function TechStack() {
@@ -52,13 +52,7 @@ export function TechStack() {
             <SectionSubtitle text={category} />
             <div className="flex flex-wrap gap-2">
               {technologies.map((tech) => (
-                <Badge
-                  key={tech}
-                  variant="outline"
-                  className="text-xs"
-                >
-                  {tech}
-                </Badge>
+                <TechBadge key={tech} tech={tech} />
               ))}
             </div>
           </div>
